@@ -1,0 +1,17 @@
+
+
+window.onload = function() {
+    var posterDiv = document.querySelector("#posterPlankton");
+    posterDiv.style.width = "300px";
+    posterDiv.style.textAlign = "center";
+
+    var titlePoster = document.querySelector("h1");
+    titlePoster.textContent = "WANTED";
+
+    var imagePlankton = document.querySelector("img");
+    imagePlankton.src = "https://th.bing.com/th/id/R.6f2296820dd1dfdce173dd681766534f?rik=lcfQiaui9MpxCg&riu=http%3a%2f%2fimages.wikia.com%2fspongebob%2fimages%2f6%2f66%2fPlankton-spongebob.jpg&ehk=LrUiVmGeLazbtJaSFhCQPLCp72g%2f%2fqEwBZVjgNz8NBw%3d&risl=&pid=ImgRaw&r=0";
+    imagePlankton.style.width = "200px";
+
+    var textContentPoster = document.querySelector("h2");
+    textContentPoster.textContent = "PLANKTON";
+}
